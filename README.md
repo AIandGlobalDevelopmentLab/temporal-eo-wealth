@@ -1,7 +1,7 @@
 # Time series of satellite imagery improve deep learning estimates of neighborhood-level poverty in Africa (IJCAI 2023)
 **[Lab](https://liu.se/en/research/global-lab-ai)** | 
 **[Paper]()** |  
-**[Suuplementary material]()** | 
+**[Suplementary material]()** | 
 **[Video]()**
 
 This is the official repository for the IJCAI 2023 paper 
