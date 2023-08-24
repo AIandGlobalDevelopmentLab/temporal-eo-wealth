@@ -1,0 +1,33 @@
+Bootstrap: docker
+From: nvcr.io/nvidia/tensorflow:21.08-tf2-py3
+
+%labels
+    Version v1.0.0
+
+%help
+    This is a container containing all dependencies required for the satellite 
+    poverty prediction project
+
+%post
+    # Install miniconda
+    wget -c https://repo.anaconda.com/miniconda/Miniconda3-py38_4.9.2-Linux-x86_64.sh
+    /bin/bash Miniconda3-py38_4.9.2-Linux-x86_64.sh -bfp /usr/local
+
+    # List installed environments
+    conda list
+
+    # Add cartopy and dask package with conda
+    conda install -c conda-forge -y cartopy=0.20.3 dask=2021.10.0
+
+    # Add directories to paths
+    export PATH=/opt/conda/bin:$PATH
+    export PYTHONPATH=/usr/local/lib/python3.8/dist-packages/:$PYTHONPATH
+
+    # Install pip packages
+    pip install image-classifiers==1.0.0 ray[tune]==1.11.0 \
+        earthengine-api==0.1.305 retry==0.9.2 wandb==0.12.17 \
+        seaborn==0.11.2
+
+%runscript
+    # When executed, the container will run Python with the correct dependencies
+    python "$@"
