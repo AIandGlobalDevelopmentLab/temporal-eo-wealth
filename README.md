@@ -2,7 +2,8 @@
 **[Lab](https://liu.se/en/research/global-lab-ai)** | 
 **[Paper](https://www.ijcai.org/proceedings/2023/0684.pdf)** | 
 **[Appendix](./IJCAI_23_supplementary_material.pdf)** | 
-**[Video]()**
+**[Video]()** |
+**[Generated maps](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F9DINV4)**
 
 This is the official repository for the IJCAI 2023 paper 
 "_Time series of satellite imagery improve deep learning estimates of neighborhood-level poverty in Africa_".  
