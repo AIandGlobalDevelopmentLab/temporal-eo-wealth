@@ -2,7 +2,7 @@
 **[Lab](https://liu.se/en/research/global-lab-ai)** | 
 **[Paper](https://www.ijcai.org/proceedings/2023/0684.pdf)** | 
 **[Appendix](./IJCAI_23_supplementary_material.pdf)** | 
-**[Video]()** |
+**[Video](https://ijcai-23.org/video/?vid=39005554)** |
 **[Generated maps](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F9DINV4)**
 
 This is the official repository for the IJCAI 2023 paper 
